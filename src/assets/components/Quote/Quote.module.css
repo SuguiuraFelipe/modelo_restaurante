@@ -1,0 +1,25 @@
+.quoteSection {
+    margin-top: 4rem;
+    background-color: #AC5E3C;
+    padding: 6rem 1rem;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+}
+.icon {
+  width: 48px;
+  height: 48px;
+  margin: 0 auto 2rem;
+  fill: none;
+  stroke: #fff;
+  stroke-width: 1;
+}
+.text {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  margin: 0 auto;
+  max-width: 600px;
+}

@@ -1,0 +1,61 @@
+/* About.module.css */
+.about {
+  width: 100%;
+  box-sizing: border-box;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+}
+
+.content {
+  flex: 0 0 35%;
+  text-align: left;
+  color: #505E45;
+  padding: 0 1rem;
+  overflow-wrap: break-word;
+}
+
+.title {
+  font-size: 3.5rem;
+  line-height: 5rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  word-break: break-word;
+}
+
+.p_content {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 2rem;
+  align-items: start;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.p_content h2 {
+  margin: 0;
+  color: #A05D2C;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.p_content p {
+  margin: 0;
+  color: #4A5A3F;
+  font-size: 1.125rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.imageWrapper {
+  flex: 0 0 50%;
+  height: 100%;
+}
+
+.imageWrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}

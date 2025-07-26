@@ -1,0 +1,36 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  z-index: 10;
+  background-color: #F2EEE4;
+}
+
+body {
+  padding-top: 4rem;
+}
+
+.logo {
+  color: #505E45;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.menu {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+.link {
+  color: #505E45;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom-color .5s ease;
+}
+.link:hover {
+  border-bottom-color: #505E45;
+}

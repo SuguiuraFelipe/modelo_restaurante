@@ -1,0 +1,77 @@
+.menuTabs {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.nav {
+  display: flex;
+  border-bottom: 2px solid #EAE2D6;
+  margin-bottom: 2rem;
+}
+
+.tab {
+  flex: 1;
+  padding: 0.75rem;
+  background: none;
+  border: none;
+  border-bottom: 4px solid transparent;
+  font-size: 1rem;
+  color: #505E45;
+  cursor: pointer;
+  transition: border-color 0.3s;
+}
+
+.tab + .tab {
+  margin-left: 1rem;
+}
+
+.tab:hover,
+.active {
+  border-bottom-color: #A05D2C;
+  font-weight: bold;
+}
+
+.content {
+  display: grid;
+  gap: 2rem;
+}
+
+.category {
+  /* cada categoria */
+}
+
+.catTitle {
+  font-size: 1.25rem;
+  color: #A05D2C;
+  margin-bottom: 0.5rem;
+}
+
+.items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.items li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #EEE;
+}
+
+.itemName {
+  font-weight: 500;
+  color: #505E45;
+}
+
+.itemDesc {
+  display: block;
+  font-size: 0.875rem;
+  color: #777;
+}
+
+.itemPrice {
+  color: #A05D2C;
+  font-weight: 500;
+}
