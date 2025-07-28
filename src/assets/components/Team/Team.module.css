@@ -38,3 +38,47 @@
   color: #4A5A3F;
   text-align: center;
 }
+
+/* Tablet (≤768px) */
+@media (max-width: 768px) {
+  .teamSection {
+    padding: 3rem 1.5rem;
+  }
+  .title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+  }
+  .photo {
+    aspect-ratio: 1 / 1;  /* quadrado para telas menores */
+    border-radius: 0.5rem;
+  }
+  .name {
+    font-size: 1.1rem;
+  }
+}
+
+/* Mobile (≤480px) */
+@media (max-width: 480px) {
+  .teamSection {
+    padding: 2rem 1rem;
+  }
+  .title {
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .photo {
+    aspect-ratio: 4 / 3;
+    height: auto;
+  }
+  .name {
+    font-size: 1rem;
+  }
+}

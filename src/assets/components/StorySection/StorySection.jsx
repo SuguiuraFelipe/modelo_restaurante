@@ -3,7 +3,7 @@ import storyImg from '../../img/story.jpg'
 
 export default function StorySection() {
   return (
-    <section className={styles.storySection}>
+    <section id='story' className={styles.storySection}>
       <div className={styles.imageWrapper}>
         <img src={storyImg} alt="Our Story" />
       </div>

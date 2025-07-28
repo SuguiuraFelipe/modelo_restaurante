@@ -6,6 +6,9 @@ import Quote from './assets/components/Quote/Quote'
 import StorySection from './assets/components/StorySection/StorySection'
 import MenuTabs from './assets/components/MenuTabs/MenuTabs'
 import Team from './assets/components/Team/Team'
+import OpenHours from './assets/components/OpenHours/OpenHours'
+import Reservation from './assets/components/Reservation/Reservation'
+import Footer from './assets/components/Footer/Footer'
 
 function App() {
   return (
@@ -18,6 +21,9 @@ function App() {
       <StorySection />
       <MenuTabs />
       <Team />
+      <OpenHours />
+      <Reservation />
+      <Footer />
     </>
   )
 }

@@ -3,7 +3,7 @@ import about_img from '../../img/about.jpg'
 
 export default function About() {
     return (
-        <section id='#about' className={styles.about}>
+        <section id='about-us' className={styles.about}>
             <div className={styles.content}>
                 <h1 className={styles.title}>The treasures of the Louvre palace and collections</h1>
                 <div className={styles.p_content}>

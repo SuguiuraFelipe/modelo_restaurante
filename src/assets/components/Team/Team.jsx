@@ -3,7 +3,7 @@ import { team } from '../../data/team'
 
 export default function Team() {
   return (
-    <section className={styles.teamSection}>
+    <section id='team' className={styles.teamSection}>
       <h2 className={styles.title}>Our Team</h2>
       <div className={styles.grid}>
         {team.map(member => (

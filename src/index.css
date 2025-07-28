@@ -33,6 +33,14 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 87px; /* altura da sua navbar */
+}
+
 /* 4. Base body settings */
 body {
   line-height: 1;
