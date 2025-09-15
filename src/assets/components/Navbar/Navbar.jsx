@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import styles from './NavBar.module.css'
+import styles from './Navbar.module.css'
 
 const links = [
   { slug: 'about-us',    label: 'Sobre nós' },
