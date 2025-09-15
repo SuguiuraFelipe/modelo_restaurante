@@ -1,6 +1,6 @@
 import About from './assets/components/About/About'
 import Hero from './assets/components/Hero/Hero'
-import NavBar from './assets/components/navbar/Navbar'
+import NavBar from './assets/components/Navbar/Navbar'
 import Location from './assets/components/Location/Location'
 import Quote from './assets/components/Quote/Quote'
 import StorySection from './assets/components/StorySection/StorySection'
