@@ -5,12 +5,12 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={styles.container}>
         <p className={styles.copy}>
-          &copy; {new Date().getFullYear()} Sopranos. All rights reserved.
+          &copy; {new Date().getFullYear()} JF. All rights reserved.
         </p>
         <ul className={styles.links}>
-          <li><a href="/privacy">Privacy Policy</a></li>
-          <li><a href="/terms">Terms of Service</a></li>
-          <li><a href="/contact">Contact</a></li>
+          <li><a href="/privacy">Política de Privacidade</a></li>
+          <li><a href="/terms">Termos de serviço</a></li>
+          <li><a href="/contact">Contato</a></li>
         </ul>
       </div>
     </footer>

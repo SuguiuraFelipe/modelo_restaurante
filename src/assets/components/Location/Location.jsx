@@ -4,7 +4,7 @@ import location_img from '../../img/location.jpg'
 export default function Location() {
   return (
     <section className={styles.location}>
-      <h1 className={styles.title}>Best In Lisbon Kitchen</h1>
+      <h1 className={styles.title}>Melhor Cozinha em Lisboa</h1>
       <div className={styles.grid}>
         {/* Salertina */}
         <a
@@ -14,7 +14,7 @@ export default function Location() {
           className={styles.card}
         >
           <img src={location_img} alt="location in Salertina" />
-          <h2>Salertina</h2>
+          <h2>Lisboa</h2>
         </a>
 
         {/* London */}
@@ -25,7 +25,7 @@ export default function Location() {
           className={styles.card}
         >
           <img src={location_img} alt="location in London" />
-          <h2>London</h2>
+          <h2>Almada</h2>
         </a>
 
         {/* Napoli */}
@@ -36,7 +36,7 @@ export default function Location() {
           className={styles.card}
         >
           <img src={location_img} alt="location in Napoli" />
-          <h2>Napoli</h2>
+          <h2>Sintra</h2>
         </a>
       </div>
     </section>

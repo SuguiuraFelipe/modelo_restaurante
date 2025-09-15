@@ -2,13 +2,13 @@ import React, { useState } from 'react'
 import styles from './NavBar.module.css'
 
 const links = [
-  { slug: 'about-us',    label: 'About Us' },
-  { slug: 'culture',     label: 'Culture'  },
-  { slug: 'story',       label: 'Our Story'},
+  { slug: 'about-us',    label: 'Sobre nós' },
+  { slug: 'culture',     label: 'Cultura'  },
+  { slug: 'story',       label: 'Nossa História'},
   { slug: 'menu',        label: 'Menu'     },
-  { slug: 'team',        label: 'Our Team' },
-  { slug: 'hours',       label: 'Open Hours' },
-  { slug: 'reservation', label: 'Reservation' }
+  { slug: 'team',        label: 'Nossa Equipa' },
+  { slug: 'hours',       label: 'Horário de Funcionamento' },
+  { slug: 'reservation', label: 'Reservas' }
 ]
 
 export default function NavBar() {

@@ -4,7 +4,7 @@ import { team } from '../../data/team'
 export default function Team() {
   return (
     <section id='team' className={styles.teamSection}>
-      <h2 className={styles.title}>Our Team</h2>
+      <h2 className={styles.title}>Nossa Equipa</h2>
       <div className={styles.grid}>
         {team.map(member => (
           <div key={member.name} className={styles.card}>

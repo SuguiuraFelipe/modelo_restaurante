@@ -9,23 +9,24 @@ export default function StorySection() {
       </div>
 
       <div className={styles.timeline}>
-        <span className={styles.year}>1967</span>
+        <span className={styles.year}>2020</span>
         <div className={styles.line} />
-        <span className={styles.year}>2024</span>
+        <span className={styles.year}>2025</span>
       </div>
 
       <div className={styles.content}>
         <h2 className={styles.title}>
-          From Tradition to Table: Our Culinary Journey
+          Da tradição para mesa, nossa história:
         </h2>
-        <p className={styles.link}>Our Story</p>
         <p className={styles.text}>
-          Authentic taste of Italy in every dish. With a rich culinary heritage spanning generations,
-          we are dedicated to using the finest ingredients to craft dishes that tantalize the taste buds.
-          From classic pasta dishes to mouthwatering pizzas cooked in a traditional wood‑fired oven,
-          each bite tells a story of tradition and craftsmanship. Whether you’re dining with family,
-          friends, or colleagues, our warm and inviting atmosphere sets the stage for memorable culinary
-          experiences. Join us and embark on a gastronomic journey through the heart of Italy right here in Lisbon.
+          No Viana Concept, começámos com uma ideia simples: criar um espaço que vai além do café e da pastelaria, 
+          onde cada visita enriquece o corpo, desperta os sentidos e alimenta a alma. Desde os primeiros pães e 
+          doces caseiros até aos produtos pensados para o bem-estar — passando por oferta estética e planos de nutrição 
+          — cada etapa é cuidada com atenção e carinho. Usamos ingredientes de qualidade, valorizando produtores locais 
+          sempre que possível, para garantir frescura, sabor verdadeiro e compromisso com a saúde. O Viana Concept 
+          nasceu da vontade de conjugar tradição e modernidade: queremos que cada visitante sinta que está num espaço 
+          de encontro — seja para um pequeno-almoço inspirador, uma pausa revigorante, ou um momento simples de convívio. 
+          Aqui, o sabor, o cuidado consigo e a partilha são o que nos move. Venha fazer parte desta história connosco.
         </p>
       </div>
     </section>

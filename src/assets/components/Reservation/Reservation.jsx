@@ -34,22 +34,22 @@ export default function Reservation() {
         <form className={styles.form} onSubmit={handleSubmit}>
           <div className={styles.row}>
             <div className={styles.field}>
-              <label>First Name*</label>
+              <label>Primeiro nome*</label>
               <input
                 type="text"
                 name="firstName"
-                placeholder="Jane"
+                placeholder="Viana"
                 value={form.firstName}
                 onChange={handleChange}
                 required
               />
             </div>
             <div className={styles.field}>
-              <label>Last Name*</label>
+              <label>Último nome*</label>
               <input
                 type="text"
                 name="lastName"
-                placeholder="Doe"
+                placeholder="Concept"
                 value={form.lastName}
                 onChange={handleChange}
                 required
@@ -57,7 +57,7 @@ export default function Reservation() {
             </div>
           </div>
           <div className={styles.field}>
-            <label>Phone Number*</label>
+            <label>Telemóvel*</label>
             <input
               type="tel"
               name="phone"
@@ -69,7 +69,7 @@ export default function Reservation() {
           </div>
           <div className={styles.row}>
             <div className={styles.field}>
-              <label>Date*</label>
+              <label>Data*</label>
               <input
                 type="datetime-local"
                 name="date"
@@ -79,7 +79,7 @@ export default function Reservation() {
               />
             </div>
             <div className={styles.field}>
-              <label>Number Of Seats*</label>
+              <label>Número de Pessoas*</label>
               <select
                 name="guests"
                 value={form.guests}
@@ -93,7 +93,7 @@ export default function Reservation() {
             </div>
           </div>
           <div className={styles.field}>
-            <label>Message*</label>
+            <label>Mensagem*</label>
             <textarea
               name="message"
               rows="4"
@@ -109,9 +109,9 @@ export default function Reservation() {
               checked={form.newsletter}
               onChange={handleChange}
             />
-            <label>Subscribe to our newsletter</label>
+            <label>Subscreva-se para receber nossa newsletter</label>
           </div>
-          <button type="submit" className={styles.button}>Submit</button>
+          <button type="submit" className={styles.button}>Enviar</button>
         </form>
         <div className={styles.imageWrapper}>
           <img src={chefImg} alt="Chef at work" />

@@ -8,15 +8,13 @@ export default function Hero() {
             <div className={styles.content}>
                 <img className={styles.coffe} src={coffe_img} alt="coffe" />
                 <h1 className={styles.title}>
-                    Savor Italy: Tradition on Every Plate!
+                    Viana Concept: <br /> o sabor da tradição, o aconchego do presente
                 </h1>
                 <p className={styles.p}>
-                    Each dish tells a story of Italy's rich culinary heritage, 
-                    meticulously crafted to transport you to the heart of Italian 
-                    tradition with every savory bite.
+                    Desperte sentidos num espaço onde o café inspira diálogo, cultura e bem-estar. Venha sentir Viana em cada chávena.
                 </p>
                 <a href="#menu" className={styles.button}>
-                    See Menu
+                    Nosso Menu
                 </a>
             </div>
             <div className={styles.imageWrapper}>
