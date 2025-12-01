@@ -1,63 +1,87 @@
-# Modelo Restaurante
+# Modelo Restaurante — React
 
-Backend / modelo de dados para um sistema de restaurante.  
-Este repositório traz a estrutura de classes, entidades e regras de domínio necessárias para representar um restaurante, seus produtos, pedidos, clientes, etc.
+Interface frontend construída em **React** simulando o site/aplicação de um restaurante.  
+O projeto apresenta uma estrutura base reutilizável para menus, cards de produtos, seções visuais e organização de componentes.
 
-## ⚙️ Tecnologias & Stack
+---
 
-- Java (ou linguagem usada — ajuste conforme)
-- [Spring Boot / Jakarta EE / outro framework, se aplicável]  
-- Maven (ou sistema de build usado)  
-- Orientação a objetos, modelagem de domínio e boas práticas de arquitetura
+## 🍽️ Sobre o Projeto
+Este projeto serve como **modelo inicial** para aplicações de restaurante, incluindo:
 
-## 📦 Estrutura do Projeto
+- Apresentação de pratos / produtos  
+- Layout de seções (hero, menu, destaque, contatos etc.)  
+- Componentização em React  
+- Organização visual moderna  
+- Arquitetura simples para evolução futura (ex: integrações com backend, carrinho, pedidos)
 
-- `src/main/java` — pacotes com entidades, serviços, modelos e lógica de negócio  
-- `src/main/resources` — configurações, arquivos de dados ou templates (se houver)  
-- `pom.xml` (ou equivalente) — dependências e build  
+É ideal para estudos de React, UI/UX e criação de páginas temáticas.
 
-## 🎯 O que o projeto representa / Modelo de Domínio
+---
 
-Este modelo inclui, por exemplo:
+## 🛠️ Tecnologias Utilizadas
+- **React**
+- **JavaScript / TypeScript** (dependendo da versão do seu código)
+- **CSS Modules / Styled Components / CSS puro** (ajustar conforme o repo)
+- **Vite** ou **Create React App** (dependendo da sua configuração)
+- Componentização e props
+- Assets estáticos para imagens e layout
 
-- Entidades como **Restaurante**, **Produto/Item**, **Pedido**, **Cliente**, **Mesa** (se aplicável)  
-- Relacionamentos entre essas entidades (ex: restaurante ⇒ produtos, pedido ⇒ itens, cliente ⇒ pedidos)  
-- Regras de negócio básicas — criação de pedido, cálculo de total, adição/remoção de itens, gerenciamento de estoque (se implementado), etc.
+---
 
-> **Importante**: este repositório não define uma interface gráfica nem endpoints HTTP — sua função é ser a base de dados/negócio para um sistema de restaurante.
+## 🚀 Como Rodar o Projeto
 
-## ▶️ Como executar / usar (exemplo genérico)
-
-1. Clone o repositório  
-   ```bash
-   git clone https://github.com/SuguiuraFelipe/modelo_restaurante.git
-   cd modelo_restaurante
-Compile o projeto
-
-bash
-Copiar código
-mvn clean package
-(Opcional) Rode testes, se houver:
+1. Clone o repositório:
+```bash
+git clone https://github.com/SuguiuraFelipe/modelo_restaurante
+cd modelo_restaurante
+Instale as dependências:
 
 bash
 Copiar código
-mvn test
-Use as classes no seu projeto/app — importe como dependência local ou estenda conforme necessário.
+npm install
+Inicie o servidor de desenvolvimento:
 
-🧪 Possíveis utilizações
-Backend de sistema de pedidos para restaurante / delivery
+bash
+Copiar código
+npm run dev
+O projeto geralmente roda em:
 
-Simulação de estoque, pedidos e relatórios
+arduino
+Copiar código
+http://localhost:5173
+(ou a porta mostrada pelo terminal)
 
-Base para API REST — basta adicionar camada de controllers / rotas
+🖼️ Estrutura Geral
+css
+Copiar código
+src/
+  components/       → componentes reutilizáveis (Card, Header, Footer…)
+  pages/            → páginas ou seções do site
+  assets/           → imagens, ícones, fontes
+  styles/           → CSS global ou modular
+  App.jsx           → estrutura principal
+  main.jsx          → ponto de entrada
+🎨 Funcionalidades / Destaques
+Página inicial estilizada
 
-Projeto de estudo de modelagem de domínio orientada a objetos
+Componentes visuais para pratos, categorias e seções
 
-✅ Por que este modelo importa
-Ajuda a separar responsabilidades (domínio vs apresentação)
+Layout responsivo
 
-Facilita escalabilidade futura — camada de dados e lógica já organizada
+Base pronta para adicionar novas rotas, páginas e integrações
 
-Promove reutilização — pode servir como base para diferentes interfaces (web, mobile, CLI)
+Estrutura simples e clara para evolução do projeto
 
-Ideal para estudo e aprimoramento de arquitetura de software
+🔧 Possíveis Extensões Futuras
+Cardápio dinâmico ligado a uma API
+
+Sistema de reservas
+
+Carrinho de compras / pedidos
+
+Tema dark/light
+
+Animações e interações avançadas
+
+📄 Licença
+Uso livre para estudo e evolução. Créditos ao autor.
